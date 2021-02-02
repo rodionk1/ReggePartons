@@ -1,0 +1,63 @@
+# Input parameters for calculations
+# Parton scheme constants
+# splitting constant
+lam  0.27361
+# death constant
+m1   0.03361
+# fusion constant
+nu   0.54722
+# annihilation constant
+m2   0.0
+# diffusion coefficient, fm^2
+alp  0.0035
+# parton interaction distance, fm
+aa   0.036
+# CHANNEL 1: probability of the channel 
+Pch1 0.5
+# CHANNEL 1: radius of the source (Gaussian distribution)
+R1    0.375
+# CHANNEL 1: mean number of partons in the source (Poisson distribution)
+#Nbar1  15*1.75
+Nbar1 26.25
+# CHANNEL 2: probability of the channel 
+Pch2 0.5
+# CHANNEL 2: radius of the source (Gaussian distribution)
+R2    0.375
+# CHANNEL 2: mean number of partons in the source (Poisson distribution)
+#Nbar2  15*0.25
+Nbar2 3.75
+# impact parameter for amplitude computation, fm
+bb 0.0
+#scale factor 
+sqrtkscale 1.0
+#start of calc in impact par
+bmin 0.0
+#step in impact parameter
+bstep 0.1
+#number of steps
+Nb 35  
+# number of steps in rapidity evolution (1 unit)
+Nevol 14
+# step in rapidity evolution
+rapstep 1
+# beginning of output from rapidity 
+rapstart 5
+# edge gap in rapidity, taken to be described as eikonal w/o interactions
+egap 0
+# size of a matrix (lines+cols) which is considered as long (and skipped)
+Nlong 34
+#
+#egapDelta 0.16
+# 
+#Nbar1eff 54.25
+#Nbar1eff 52.5
+#Nbar2eff 7.75
+#Nbar2eff 7.5
+#R1eff 0.39
+#R1eff 0.375
+#R2eff 0.39
+#R2eff 0.375
+#alpeff 0.004
+#alpeff 0.004
+# number of simulated events
+Nevent 10000
